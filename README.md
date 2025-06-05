@@ -48,7 +48,7 @@ source .venv/bin/activate
 
 ---
 
-Autor
+## Autor
 Paulo Roberto Marinato
 Blockchain & Smart Contract Developer | Solidity, Kotlin, Rust | Web3 • EVM • ZK • Android
 
