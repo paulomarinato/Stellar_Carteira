@@ -1,44 +1,57 @@
-# Carteira Stellar
+# 🌟 Carteira Stellar
 
-## Sobre o Projeto
+📌 **Projeto desenvolvido durante o Bootcamp Stellar – NEARX**  
+🛠️ **Linguagem: Python | Biblioteca: Stellar SDK**
 
-Este projeto foi desenvolvido durante o **Bootcamp Stellar** oferecido pela **NEARX**. O objetivo é criar uma carteira Stellar que permita interagir com a rede Stellar, possibilitando a criação de chaves, verificação de saldos e realização de transações.
+---
 
-## Funcionalidades
+## 📖 Sobre o Projeto
 
-- **Criação de Chaves**: Geração de novas chaves públicas e privadas para uso na rede Stellar.
-- **Verificação de Saldo**: Consulta do saldo da conta Stellar em tempo real.
-- **Realização de Transações**: Envio de XLM (Lumens) entre contas com a possibilidade de adicionar memos para identificação.
+Este projeto foi desenvolvido como parte do **Bootcamp Stellar** promovido pela **NEARX**. O objetivo é construir uma carteira que permita interações básicas com a **rede Stellar**, incluindo:
 
-## Tecnologias Utilizadas
+- Geração de chaves públicas e privadas
+- Consulta de saldos em tempo real
+- Realização de transações com suporte a memos
 
-- **Python**: Linguagem de programação utilizada para desenvolver a aplicação.
-- **Stellar SDK**: Biblioteca que facilita a interação com a rede Stellar.
+---
 
-## Como Usar
+## 🚀 Funcionalidades
 
-1. Clone o repositório.
-  
-2. Crie um ambiente virtual:
-    python -m venv .venv
+- **🔐 Criação de Chaves:** Geração de novas chaves públicas/privadas válidas na rede Stellar.
+- **📊 Verificação de Saldo:** Consulta do saldo de uma conta Stellar via chave pública.
+- **💸 Realização de Transações:** Envio de Lumens (XLM) entre contas, com suporte à inclusão de `memo` para identificação.
 
-3. Ative o ambiente virtual:
-    .venv\Scripts\activate
+---
 
-4. Instale as dependências:
-    pip install stellar-sdk
+## 🧰 Tecnologias Utilizadas
 
-5. Execute o script:
-    - Para criar uma nova carteira: "python cartreira.py"
-    - Para verificar saldo: "python saldo.py"
-    - Para realizar transações: "python memo.py"
+- **Python 3.x**
+- **Stellar SDK** (`stellar-sdk`)
 
+---
 
-Contribuições
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
+## ⚙️ Como Usar
 
-Licença
-Este projeto está licenciado sob a Licença MIT.
+### 1. Clone o repositório
+
+bash
+git clone https://github.com/seu-usuario/carteira-stellar.git
+cd carteira-stellar
+
+---
+
+python -m venv .venv
+# Ativando no Windows:
+.venv\Scripts\activate
+# Ativando no Unix/Mac:
+source .venv/bin/activate
+
+---
+
+Autor
+Paulo Roberto Marinato
+Blockchain & Smart Contract Developer | Solidity, Kotlin, Rust | Web3 • EVM • ZK • Android
+
 
 
 
